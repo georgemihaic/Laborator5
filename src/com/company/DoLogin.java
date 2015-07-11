@@ -61,12 +61,10 @@ public class DoLogin {
     }
 
 
-
-
     public boolean login() {
       return loginUntilSuccess(0);
    // emuleaza functionalitatea metodei login() originale,
-   // prin ocolirea buclei while() din metoda loginUntilSuccess(0);
+   // prin ocolirea buclei while() din metoda loginUntilSuccess(int);
     }
 
     public boolean loginUntilSuccess() {
@@ -79,13 +77,10 @@ public class DoLogin {
         boolean found=false;
 
         do {
-            Scanner sc = new Scanner(System.in);
-            String user;
-            System.out.print("enter username=");
-            user = sc.next();
-            String pwd;
-            System.out.print("enter pwd=");
-            pwd = sc.next();
+            System.out.print("Introdu userul: ");
+            String user = rKbd();
+            System.out.print("Introdu parola: ");
+            String pwd = rKbd();
             // create a Login object with the user input;
             Login object = new Login(user, pwd);
 
@@ -102,7 +97,13 @@ public class DoLogin {
 
     }
 
-
-
+private String rKbd() {
+    String citesc;
+    do {
+        Scanner sc = new Scanner(System.in);
+        citesc = sc.nextLine();
+    } while (citesc.isEmpty());
+    return citesc.trim();
+}
 
 }
