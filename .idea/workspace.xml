@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaea2ff3-a070-448f-a4e6-5cbc2fa09570" name="Default" comment="initial commit">
+    <list default="true" id="aaea2ff3-a070-448f-a4e6-5cbc2fa09570" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/DoLogin.java" afterPath="$PROJECT_DIR$/src/com/company/DoLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Laborator 5.iml" afterPath="$PROJECT_DIR$/Laborator 5.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Login.java" afterPath="$PROJECT_DIR$/src/com/company/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Notepad.java" afterPath="$PROJECT_DIR$/src/com/company/Notepad.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Laborator 5.iws" />
@@ -84,30 +75,29 @@
       <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="11" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="30" column="31" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notepad.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Notepad.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.7025761" vertical-offset="0" max-vertical-offset="645">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="31" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="645">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoLogin.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DoLogin.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/DoLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="9" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+            <state line="100" column="18" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.6533128" vertical-offset="926" max-vertical-offset="1575">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#DoLogin#0" expanded="false" />
+                <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+                <element signature="e#1861#1916#0" expanded="false" />
+                <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -145,9 +135,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/DoLogin.java" />
         <option value="$PROJECT_DIR$/src/com/company/Login.java" />
         <option value="$PROJECT_DIR$/src/com/company/Notepad.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DoLogin.java" />
       </list>
     </option>
   </component>
@@ -184,7 +174,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,8 +192,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notepad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notepad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -411,6 +419,19 @@
       <created>1434176308676</created>
       <updated>1434176308676</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1436636447585</created>
+      <updated>1436636447585</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Versiunea 1.0&#10;">
+      <created>1436653359174</created>
+      <updated>1436653359174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Versiunea 1.0&#10;">
+      <created>1436653570022</created>
+      <updated>1436653570022</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -427,20 +448,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24827056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24827056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -456,7 +477,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Versiunea 1.0&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versiunea 1.0&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,6 +490,106 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DoLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="18" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="1575">
+          <folding>
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DoLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="25" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1575">
+          <folding>
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DoLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="45" selection-start="2951" selection-end="2951" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1140">
+          <folding>
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="11" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DoLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="9" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1710">
+          <folding>
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="11" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
           <folding />
         </state>
@@ -476,9 +598,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="40" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="735">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,8 +606,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="27" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="1710">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DoLogin#0" expanded="false" />
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -502,9 +623,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="26" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="720">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,8 +631,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="26" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.0" vertical-offset="1568" max-vertical-offset="2010">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DoLogin#0" expanded="false" />
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -528,9 +648,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="26" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="720">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -538,8 +656,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DoLogin#0" expanded="false" />
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -554,9 +673,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -564,8 +681,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DoLogin#0" expanded="false" />
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,26 +695,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="690">
+        <state line="30" column="31" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DoLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+        <state line="100" column="18" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.6533128" vertical-offset="926" max-vertical-offset="1575">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DoLogin#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Notepad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.7025761" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#login#0;class#DoLogin#0" expanded="false" />
+            <element signature="e#1861#1916#0" expanded="false" />
+            <element signature="method#loginUntilSuccess#0;class#DoLogin#0" expanded="false" />
           </folding>
         </state>
       </provider>

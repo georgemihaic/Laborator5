@@ -13,7 +13,7 @@ public class Notepad {
         System.out.println("Numarul de utilizatori gasiti in baza de date: " + dologin.loginList.size());
         // daca searchul e ok apel altfel stai aici
 
-        boolean isLogin = dologin.loginUntilSuccess();
+        boolean isLogin = dologin.loginUntilSuccess(3);
         if(isLogin) {
             launchProgram();
 
@@ -29,7 +29,7 @@ public class Notepad {
         try {
             rs.exec("gedit"); // notepad for windows; gedit for linux
         } catch (IOException e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 

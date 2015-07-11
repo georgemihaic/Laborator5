@@ -24,12 +24,14 @@ public class Login {
     }
 
 
-   // Login() {}
+    Login(String u) {
+        this.setUser(u);
+    }
 
     Login(String u, String p) {
         // System.out.println("User \"" + u + "\" created");
-        this.user=u;
-        this.password=p;
+        this.setUser(u);
+        this.setPassword(p);
     }
 
     @Override

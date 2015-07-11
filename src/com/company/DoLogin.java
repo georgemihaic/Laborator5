@@ -61,12 +61,10 @@ public class DoLogin {
     }
 
 
-
-
     public boolean login() {
       return loginUntilSuccess(0);
    // emuleaza functionalitatea metodei login() originale,
-   // prin ocolirea buclei while() din metoda loginUntilSuccess(0);
+   // prin ocolirea buclei while() din metoda loginUntilSuccess(int);
     }
 
     public boolean loginUntilSuccess() {
@@ -79,13 +77,10 @@ public class DoLogin {
         boolean found=false;
 
         do {
-            Scanner sc = new Scanner(System.in);
-            String user;
-            System.out.print("enter username=");
-            user = sc.next();
-            String pwd;
-            System.out.print("enter pwd=");
-            pwd = sc.next();
+            System.out.print("Introdu userul: ");
+            String user = rKbd();
+            System.out.print("Introdu parola: ");
+            String pwd = rKbd();
             // create a Login object with the user input;
             Login object = new Login(user, pwd);
 
@@ -97,12 +92,18 @@ public class DoLogin {
             else { System.out.println("Mai incearca ... "); }
             maxLogins = maxLogins -1; // Ai mai gresit o incercare;
         }  while(maxLogins > 0);
-
+        System.err.println("HINT!  Adi pass.");
         return found;
 
     }
 
-
-
+private String rKbd() { // Citeste tastatura;
+    String citesc;
+    do {
+        Scanner sc = new Scanner(System.in);
+        citesc = sc.nextLine();
+    } while (citesc.isEmpty());
+    return citesc.trim();
+}
 
 }
