@@ -1,10 +1,7 @@
 package com.company;
 
-//de importat login
-
 import java.util.*;
 import java.io.*;
-import com.company.Login;
 
 public class Notepad {
 
@@ -13,16 +10,14 @@ public class Notepad {
 
 
         DoLogin dologin = new DoLogin();
+        System.out.println("Numarul de utilizatori gasiti in baza de date: " + dologin.loginList.size());
         // daca searchul e ok apel altfel stai aici
 
-        boolean isLogin = dologin.loginUntilSuccess();
+        boolean isLogin = dologin.loginUntilSuccess(3);
         if(isLogin) {
             launchProgram();
 
         }
-
-
-
 
     }
 
@@ -32,9 +27,9 @@ public class Notepad {
         Runtime rs = Runtime.getRuntime();
 
         try {
-            rs.exec("notepad");
+            rs.exec("gedit"); // notepad for windows; gedit for linux
         } catch (IOException e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 

@@ -24,11 +24,27 @@ public class Login {
     }
 
 
-   // Login() {}
+    Login(String u) {
+        this.setUser(u);
+    }
 
     Login(String u, String p) {
-        System.out.println("construcutior");
-        user=u;
-        password=p;
+        // System.out.println("User \"" + u + "\" created");
+        this.setUser(u);
+        this.setPassword(p);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        boolean sameUser = false;
+        boolean samePass = false;
+
+        if (obj != null && obj instanceof Login)
+        {
+            sameUser = this.user.equalsIgnoreCase(((Login) obj).getUser());
+            samePass = this.password.equals(((Login) obj).getPassword());
+        }
+
+        return sameUser && samePass;
     }
 }
